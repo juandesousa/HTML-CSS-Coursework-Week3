@@ -1,1 +1,33 @@
 /*  Add your styling here */
+
+@media (min-width: 540px) {
+
+    header{
+        display: none;
+    }
+
+    .minicake{
+        display: flex;
+    }
+
+    button{
+        display:flex;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    header{
+        display: flex;
+    }
+
+    .minicake{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+
+}
